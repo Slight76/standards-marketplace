@@ -19,7 +19,7 @@ Install the skills once per machine, or materialize a pinned checkout per repo:
 | Agent | Command |
 | --- | --- |
 | Copilot CLI | `copilot plugin marketplace add Slight76/standards-marketplace` then `copilot plugin install <name>@slight76-standards` |
-| GitHub CLI (any agent) | `gh skill install Slight76/<repo> <repo> --scope user --pin v1.0.0` |
+| GitHub CLI (any agent) | `gh skill install Slight76/<repo> <repo> --scope user --pin v1.0.1` |
 | Claude Code | `/plugin marketplace add Slight76/standards-marketplace` then `/plugin install <name>@slight76-standards` |
 | Pinned checkout | `python3 .standards/standards-marketplace/tooling/fetch_standards.py --baseline architecture-baseline.json` |
 

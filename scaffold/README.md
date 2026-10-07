@@ -19,7 +19,7 @@ See [skills/__NAME__/SKILL.md](skills/__NAME__/SKILL.md).
 | Agent | Command |
 | --- | --- |
 | Copilot CLI | `copilot plugin marketplace add Slight76/standards-marketplace` then `copilot plugin install __NAME__@slight76-standards` |
-| GitHub CLI (any agent) | `gh skill install Slight76/__NAME__ __NAME__ --scope user --pin v1.0.0` |
+| GitHub CLI (any agent) | `gh skill install Slight76/__NAME__ __NAME__ --scope user --pin v1.0.1` |
 | Claude Code | `/plugin marketplace add Slight76/standards-marketplace` then `/plugin install __NAME__@slight76-standards` |
 
 ## Layout

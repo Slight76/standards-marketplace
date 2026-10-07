@@ -38,11 +38,11 @@ Every rule ID across all handbooks is listed in [catalog/rule-index.json](catalo
 | --- | --- |
 | Copilot CLI | `copilot plugin marketplace add Slight76/standards-marketplace` then `copilot plugin install data-standards@slight76-standards` (repeat per handbook) |
 | Copilot cloud agent | copy [consumer-kit/copilot-setup-steps.yml](consumer-kit/copilot-setup-steps.yml) into the consuming repo |
-| GitHub CLI (`gh skill`, any agent) | `gh skill install Slight76/data-standards data-standards --scope user --pin v1.0.0` |
+| GitHub CLI (`gh skill`, any agent) | `gh skill install Slight76/data-standards data-standards --scope user --pin v1.0.1` |
 | Claude Code | `/plugin marketplace add Slight76/standards-marketplace` then `/plugin install data-standards@slight76-standards` |
 | Codex / others | append [consumer-kit/AGENTS.md.snippet](consumer-kit/AGENTS.md.snippet) and pin a checkout with `tooling/fetch_standards.py` |
 
-The marketplace manifest is [.claude-plugin/marketplace.json](.claude-plugin/marketplace.json); each handbook is an Agent Plugins 1.0 plugin (`plugin.json` + `skills/<name>/SKILL.md`).
+The marketplace manifest is [.claude-plugin/marketplace.json](.claude-plugin/marketplace.json); each handbook is an Agent Plugins 1.0 plugin (`plugin.json` + `skills/<name>/SKILL.md`). Plugin sources are HTTPS `url` entries pinned to a tag and commit SHA, so installs work without an SSH key.
 
 ## Repository layout
 
