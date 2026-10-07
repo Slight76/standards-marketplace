@@ -94,7 +94,7 @@ def validate_catalog(root, catalog, decisions, errors):
 def validate_documents(root, known, errors):
     for doc in root.rglob('*.md'):
         rel = doc.relative_to(root).as_posix()
-        if '/.git/' in doc.as_posix() or rel.startswith('.git/'):
+        if '/.git/' in doc.as_posix() or rel.startswith(('.git/', 'scaffold/')):
             continue
         text = read(doc)
         for link in re.findall(r'\[[^\]]*\]\(([^)\s]+)\)', text):

@@ -7,10 +7,10 @@ The index for the Slight76 team standards handbooks: where each standard lives, 
 | Repository | Covers | Rule prefixes |
 | --- | --- | --- |
 | [architecture-standards](https://github.com/Slight76/architecture-standards) | Solution design, ADR process, frontend/backend architecture, CQRS, middleware, OpenAPI, HTTP APIs, contracts, messaging, integration | SA, FE, UX, BE, CQRS, MW, OAS, API, CON, EVT, RES, INT |
-| [engineering-standards](https://github.com/Slight76/engineering-standards) | Branching and commits, code review, testing, backend/frontend implementation, agent development, adoption process | TEST, AGT, BE (impl), FE (impl) |
-| [operations-standards](https://github.com/Slight76/operations-standards) | Delivery pipelines, observability, SLOs, incident response, platform and infrastructure (Fly.io, Docker), backup/DR | CICD, OBS, SLO, PL, INF |
-| [data-standards](https://github.com/Slight76/data-standards) | Database architecture and design, naming, Postgres practices, EF Core migrations and recovery, persistence, caching | DB, MIG, DR, DATA, CACHE |
-| [security-standards](https://github.com/Slight76/security-standards) | Application security, identity, CORS, secrets, threat modeling, CI/CD supply chain, dependencies/SBOM | SEC, IAM, CORS |
+| [engineering-standards](https://github.com/Slight76/engineering-standards) | Branching and commits, code review, testing, backend/frontend implementation, agent development, adoption process | TEST, AGT, BE (impl), FE (impl), SCM, REV |
+| [operations-standards](https://github.com/Slight76/operations-standards) | Delivery pipelines, observability, SLOs, incident response, platform and infrastructure (Fly.io, Docker), backup/DR | CICD, OBS, SLO, PL, INF, CFG, INC, TOIL, BDR |
+| [data-standards](https://github.com/Slight76/data-standards) | Database architecture and design, naming, Postgres practices, EF Core migrations and recovery, persistence, caching | DB, MIG, DR, DATA, CACHE, NAME, PGX |
+| [security-standards](https://github.com/Slight76/security-standards) | Application security, identity, CORS, secrets, threat modeling, CI/CD supply chain, dependencies/SBOM | SEC, IAM, CORS, SECR, TM, SCS, DEP |
 | standards-marketplace (this repo) | Governance, templates, consumer kit, shared tooling, rule index | GOV |
 
 Every rule ID across all handbooks is listed in [catalog/rule-index.json](catalog/rule-index.json).
@@ -27,7 +27,7 @@ Every rule ID across all handbooks is listed in [catalog/rule-index.json](catalo
 | CI/CD, deploy, Fly.io, Docker | operations-standards `docs/delivery-standard.md`, `docs/infrastructure-implementation-standard.md` |
 | Logging, metrics, alerts, SLOs | operations-standards `docs/observability-standard.md`, `docs/slo-and-toil.md` |
 | Incident or postmortem | operations-standards `docs/incident-response-and-postmortems.md` |
-| Schema, query, migration, cache | data-standards `docs/database-design-standard.md`, `docs/migration-recovery-standard.md`, `docs/caching-standard.md` |
+| Schema, query, migration, cache | data-standards `docs/design-standard.md`, `docs/migration-recovery-standard.md`, `docs/caching-standard.md` |
 | Auth, secrets, CORS, security review | security-standards `docs/application-security-standard.md`, `docs/identity-standard.md`, `docs/secrets-management.md` |
 | Adopting the standards in a repo | [consumer-kit](consumer-kit/README.md), engineering-standards `docs/adoption-process.md` |
 | Governance, exceptions, ownership | [governance/team-operating-model.md](governance/team-operating-model.md), [templates/exception.md](templates/exception.md) |
