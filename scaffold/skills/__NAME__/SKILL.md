@@ -1,5 +1,6 @@
 ---
 name: __NAME__
+license: MIT
 description: __SKILL_DESCRIPTION__
 ---
 # __TITLE__

@@ -6,38 +6,38 @@
   },
   "metadata": {
     "description": "Slight76 team standards handbooks for developers and AI agents: architecture, engineering, operations, data, and security.",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "plugins": [
     {
       "name": "architecture-standards",
       "description": "Solution, frontend, backend, integration, and API architecture standards. Use when designing systems, boundaries, contracts, messaging, or reviewing architecture decisions.",
-      "version": "1.0.0",
-      "source": { "source": "github", "repo": "Slight76/architecture-standards", "ref": "v1.0.0", "sha": "9e0ed7a0c9e30f7c11ea0a123ff26563f388ccd0" }
+      "version": "1.0.1",
+      "source": { "source": "url", "url": "https://github.com/Slight76/architecture-standards.git", "ref": "v1.0.1", "sha": "44805e211108ed29be4642487cff2d023bf63b71" }
     },
     {
       "name": "engineering-standards",
       "description": "Source control, code review, testing, implementation, agent development, and adoption standards. Use when writing or reviewing code, tests, branches, or commits.",
-      "version": "1.0.0",
-      "source": { "source": "github", "repo": "Slight76/engineering-standards", "ref": "v1.0.0", "sha": "7b58bd1775b9b6e3e6f8b35fde7dc7a05ea4b867" }
+      "version": "1.0.1",
+      "source": { "source": "url", "url": "https://github.com/Slight76/engineering-standards.git", "ref": "v1.0.1", "sha": "31eed70b53c0dbe4ae40cd8bc951e3d904ceaec2" }
     },
     {
       "name": "operations-standards",
       "description": "Delivery pipelines, observability, SLOs, incident response, infrastructure, Fly.io/Docker runtime, and backup/DR standards. Use for CI/CD, deployment, monitoring, and runbooks.",
-      "version": "1.0.0",
-      "source": { "source": "github", "repo": "Slight76/operations-standards", "ref": "v1.0.0", "sha": "051eacd83b54e1e8c5a7b0fc69b73b601a0ff1ca" }
+      "version": "1.0.1",
+      "source": { "source": "url", "url": "https://github.com/Slight76/operations-standards.git", "ref": "v1.0.1", "sha": "e9dcce5ac7f9b03bf6a64ff0861cc49cd4a4672c" }
     },
     {
       "name": "data-standards",
       "description": "Database design, naming, Postgres practices, EF Core migrations, persistence, caching, and backup/restore standards. Use when touching schemas, queries, migrations, or caches.",
-      "version": "1.0.0",
-      "source": { "source": "github", "repo": "Slight76/data-standards", "ref": "v1.0.0", "sha": "eef0d48a039dc1ec8b6cb3bb3a3dacbd14ac6a61" }
+      "version": "1.0.1",
+      "source": { "source": "url", "url": "https://github.com/Slight76/data-standards.git", "ref": "v1.0.1", "sha": "360f8b03396862c1703989a1b4cefdb5cbbe85d9" }
     },
     {
       "name": "security-standards",
       "description": "Application security, identity, CORS, secrets, threat modeling, supply chain, and dependency/SBOM standards. Use for auth, secrets, security reviews, and CI hardening.",
-      "version": "1.0.0",
-      "source": { "source": "github", "repo": "Slight76/security-standards", "ref": "v1.0.0", "sha": "8f82c6a4cb1e1c528bb8662dec40ed66314712f1" }
+      "version": "1.0.1",
+      "source": { "source": "url", "url": "https://github.com/Slight76/security-standards.git", "ref": "v1.0.1", "sha": "bb35c6b429d0105ec3d343bbf6419a42ea1b266a" }
     }
   ]
 }

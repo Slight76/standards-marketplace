@@ -1,5 +1,6 @@
 ---
 name: standards-marketplace
+license: MIT
 description: Route to the right Slight76 standards handbook (architecture, engineering, operations, data, security) for a task, install handbooks as agent skills, and validate a repo's architecture-baseline.json and implementation-evidence.json with the shared tooling. Use when asked which standard applies, how to adopt the team standards, how to pin standards revisions, or when running check_adoption, fetch_standards, or validate.
 ---
 # Standards marketplace
