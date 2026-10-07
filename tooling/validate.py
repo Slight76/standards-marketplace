@@ -22,6 +22,8 @@ ADR_HEADINGS = ('Context', 'Decision', 'Alternatives', 'Consequences', 'Traceabi
 REQUIRED_FILES = ('README.md', 'AGENTS.md', 'CLAUDE.md', 'LICENSE', 'plugin.json', 'catalog/catalog.json')
 # Historic "enterprise" wording may remain only in these paths.
 ENTERPRISE_ALLOWED = ('adr/', 'CHANGELOG.md', 'MOVED.md', 'catalog/', 'governance/migration-')
+# Directories never validated: VCS data, the scaffold template, and checkouts made by CI/consumers.
+SKIP_DIRS = ('.git/', 'scaffold/', '.marketplace/', '.standards/', 'node_modules/')
 ENTERPRISE = re.compile(r'\benterprise\b', re.I)
 
 
@@ -94,7 +96,7 @@ def validate_catalog(root, catalog, decisions, errors):
 def validate_documents(root, known, errors):
     for doc in root.rglob('*.md'):
         rel = doc.relative_to(root).as_posix()
-        if '/.git/' in doc.as_posix() or rel.startswith(('.git/', 'scaffold/')):
+        if rel.startswith(SKIP_DIRS):
             continue
         text = read(doc)
         for link in re.findall(r'\[[^\]]*\]\(([^)\s]+)\)', text):
@@ -144,7 +146,7 @@ def validate_agent_files(root, errors):
         if text.count('\n') > 500:
             errors.append('{} exceeds 500 lines'.format(skill.relative_to(root).as_posix()))
     for file in root.rglob('*.json'):
-        if '/.git/' in file.as_posix():
+        if file.relative_to(root).as_posix().startswith(SKIP_DIRS):
             continue
         try:
             load_json(file)
