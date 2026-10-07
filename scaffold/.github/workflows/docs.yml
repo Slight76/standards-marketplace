@@ -1,0 +1,11 @@
+name: Docs
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  lint:
+    # Pinned to a marketplace commit SHA at release time (see standards-marketplace README "Versioning").
+    uses: Slight76/standards-marketplace/.github/workflows/docs-lint.yml@main

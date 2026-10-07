@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "__NAME__",
+  "version": "1.0.0",
+  "description": "__DESCRIPTION__",
+  "author": { "name": "Slight76", "url": "https://github.com/Slight76" },
+  "homepage": "https://github.com/Slight76/__NAME__",
+  "repository": "https://github.com/Slight76/__NAME__",
+  "license": "MIT",
+  "keywords": ["standards", "agent-skills", "__DOMAIN__"]
+}

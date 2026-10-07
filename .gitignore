@@ -1,0 +1,4 @@
+.standards/
+.marketplace/
+__pycache__/
+*.pyc

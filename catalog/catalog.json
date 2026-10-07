@@ -1,0 +1,101 @@
+{
+  "version": "1.0.0",
+  "status": "recommended-draft",
+  "repository": "Slight76/standards-marketplace",
+  "rules": [
+    {
+      "id": "GOV-001",
+      "domain": "governance",
+      "statement": "Every application repository MUST declare the standards repositories and immutable revisions it adopts in architecture-baseline.json.",
+      "verification": "tooling/check_adoption.py passes against the declared baseline",
+      "adr": "ADR-0001",
+      "document": "governance/team-operating-model.md",
+      "status": "Proposed",
+      "applies_when": "a repository adopts any Slight76 standards handbook"
+    },
+    {
+      "id": "EA-001",
+      "domain": "enterprise",
+      "statement": "Each solution MUST identify its business capability and accountable owner.",
+      "verification": "Solution document review",
+      "adr": "ADR-0001",
+      "document": "governance/team-operating-model.md",
+      "status": "Superseded",
+      "applies_when": "the solution includes this domain; assess the linked architecture scope",
+      "superseded_by": "GOV-001",
+      "note": "Enterprise layer retired by ADR-0028; see standards-marketplace governance."
+    },
+    {
+      "id": "EA-002",
+      "domain": "enterprise",
+      "statement": "Applications MUST communicate through documented contracts and identify data owners.",
+      "verification": "Dependency and data ownership review",
+      "adr": "ADR-0001",
+      "document": "governance/team-operating-model.md",
+      "status": "Superseded",
+      "applies_when": "the solution includes this domain; assess the linked architecture scope",
+      "superseded_by": "GOV-001",
+      "note": "Enterprise layer retired by ADR-0028; see standards-marketplace governance."
+    },
+    {
+      "id": "EA-003",
+      "domain": "enterprise",
+      "statement": "Technology selections SHOULD follow a supported lifecycle and require justification for new platforms.",
+      "verification": "Technology register review",
+      "adr": "ADR-0001",
+      "document": "governance/team-operating-model.md",
+      "status": "Superseded",
+      "applies_when": "the solution includes this domain; assess the linked architecture scope",
+      "superseded_by": "GOV-001",
+      "note": "Enterprise layer retired by ADR-0028; see standards-marketplace governance."
+    },
+    {
+      "id": "EA-004",
+      "domain": "enterprise",
+      "statement": "Solutions MUST record accountable business, technical, operational, and data ownership responsibilities.",
+      "verification": "Ownership register with actual names before production",
+      "adr": "ADR-0023",
+      "document": "governance/team-operating-model.md",
+      "status": "Superseded",
+      "applies_when": "a solution adopts team architecture standards",
+      "superseded_by": "GOV-001",
+      "note": "Enterprise layer retired by ADR-0028; see standards-marketplace governance."
+    },
+    {
+      "id": "EA-005",
+      "domain": "enterprise",
+      "statement": "Adopted technologies MUST have lifecycle, cost, and migration ownership.",
+      "verification": "Technology register and upgrade review",
+      "adr": "ADR-0023",
+      "document": "governance/team-operating-model.md",
+      "status": "Superseded",
+      "applies_when": "a solution adopts team architecture standards",
+      "superseded_by": "GOV-001",
+      "note": "Enterprise layer retired by ADR-0028; see standards-marketplace governance."
+    },
+    {
+      "id": "EA-006",
+      "domain": "enterprise",
+      "statement": "Material cross-boundary changes MUST maintain decision and application-baseline traceability.",
+      "verification": "ADR impact and adoption register review",
+      "adr": "ADR-0023",
+      "document": "governance/team-operating-model.md",
+      "status": "Superseded",
+      "applies_when": "a solution adopts team architecture standards",
+      "superseded_by": "GOV-001",
+      "note": "Enterprise layer retired by ADR-0028; see standards-marketplace governance."
+    }
+  ],
+  "externalDecisions": {
+    "ADR-0001": {
+      "repository": "Slight76/architecture-standards",
+      "status": "Accepted",
+      "url": "https://github.com/Slight76/architecture-standards/blob/main/adr/0001-enterprise.md"
+    },
+    "ADR-0023": {
+      "repository": "Slight76/architecture-standards",
+      "status": "Proposed",
+      "url": "https://github.com/Slight76/architecture-standards/blob/main/adr/0023-implementation-decisions.md"
+    }
+  }
+}

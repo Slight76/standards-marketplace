@@ -1,0 +1,677 @@
+{
+  "generatedFrom": "Slight76/architecture-standards@c1bda3dde743c764027c80cd2aa2f9aae2f0e2e6",
+  "rules": [
+    {
+      "id": "AGT-001",
+      "repository": "engineering-standards",
+      "document": "docs/agent-development-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "AGT-002",
+      "repository": "engineering-standards",
+      "document": "docs/agent-development-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "AGT-003",
+      "repository": "engineering-standards",
+      "document": "docs/agent-development-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "AGT-004",
+      "repository": "engineering-standards",
+      "document": "docs/agent-development-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "API-001",
+      "repository": "architecture-standards",
+      "document": "docs/http-api-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "API-002",
+      "repository": "architecture-standards",
+      "document": "docs/http-api-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "API-003",
+      "repository": "architecture-standards",
+      "document": "docs/http-api-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "API-004",
+      "repository": "architecture-standards",
+      "document": "docs/http-api-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "BE-001",
+      "repository": "architecture-standards",
+      "document": "docs/backend-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "BE-002",
+      "repository": "architecture-standards",
+      "document": "docs/backend-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "BE-003",
+      "repository": "architecture-standards",
+      "document": "docs/backend-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "BE-004",
+      "repository": "architecture-standards",
+      "document": "docs/backend-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "BE-005",
+      "repository": "architecture-standards",
+      "document": "docs/backend-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "BE-006",
+      "repository": "engineering-standards",
+      "document": "docs/backend-implementation-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "BE-007",
+      "repository": "engineering-standards",
+      "document": "docs/backend-implementation-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "BE-008",
+      "repository": "engineering-standards",
+      "document": "docs/backend-implementation-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "BE-009",
+      "repository": "engineering-standards",
+      "document": "docs/backend-implementation-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "CACHE-001",
+      "repository": "data-standards",
+      "document": "docs/caching-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "CACHE-002",
+      "repository": "data-standards",
+      "document": "docs/caching-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "CICD-001",
+      "repository": "operations-standards",
+      "document": "docs/delivery-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "CICD-002",
+      "repository": "operations-standards",
+      "document": "docs/delivery-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "CICD-003",
+      "repository": "operations-standards",
+      "document": "docs/delivery-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "CON-001",
+      "repository": "architecture-standards",
+      "document": "docs/contracts-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "CON-002",
+      "repository": "architecture-standards",
+      "document": "docs/contracts-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "CON-003",
+      "repository": "architecture-standards",
+      "document": "docs/contracts-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "CORS-001",
+      "repository": "security-standards",
+      "document": "docs/cors-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "CORS-002",
+      "repository": "security-standards",
+      "document": "docs/cors-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "CORS-003",
+      "repository": "security-standards",
+      "document": "docs/cors-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "CQRS-001",
+      "repository": "architecture-standards",
+      "document": "docs/cqrs-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "CQRS-002",
+      "repository": "architecture-standards",
+      "document": "docs/cqrs-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "CQRS-003",
+      "repository": "architecture-standards",
+      "document": "docs/cqrs-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "CQRS-004",
+      "repository": "architecture-standards",
+      "document": "docs/cqrs-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "DATA-001",
+      "repository": "data-standards",
+      "document": "docs/persistence-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "DATA-002",
+      "repository": "data-standards",
+      "document": "docs/persistence-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "DATA-003",
+      "repository": "data-standards",
+      "document": "docs/persistence-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "DB-001",
+      "repository": "data-standards",
+      "document": "docs/database-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "DB-002",
+      "repository": "data-standards",
+      "document": "docs/database-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "DB-003",
+      "repository": "data-standards",
+      "document": "docs/database-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "DB-004",
+      "repository": "data-standards",
+      "document": "docs/database-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "DB-005",
+      "repository": "data-standards",
+      "document": "docs/database-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "DB-006",
+      "repository": "data-standards",
+      "document": "docs/design-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "DB-007",
+      "repository": "data-standards",
+      "document": "docs/design-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "DB-008",
+      "repository": "data-standards",
+      "document": "docs/design-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "DR-001",
+      "repository": "data-standards",
+      "document": "docs/migration-recovery-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "EA-001",
+      "repository": "standards-marketplace",
+      "document": "governance/team-operating-model.md",
+      "status": "Superseded"
+    },
+    {
+      "id": "EA-002",
+      "repository": "standards-marketplace",
+      "document": "governance/team-operating-model.md",
+      "status": "Superseded"
+    },
+    {
+      "id": "EA-003",
+      "repository": "standards-marketplace",
+      "document": "governance/team-operating-model.md",
+      "status": "Superseded"
+    },
+    {
+      "id": "EA-004",
+      "repository": "standards-marketplace",
+      "document": "governance/team-operating-model.md",
+      "status": "Superseded"
+    },
+    {
+      "id": "EA-005",
+      "repository": "standards-marketplace",
+      "document": "governance/team-operating-model.md",
+      "status": "Superseded"
+    },
+    {
+      "id": "EA-006",
+      "repository": "standards-marketplace",
+      "document": "governance/team-operating-model.md",
+      "status": "Superseded"
+    },
+    {
+      "id": "EVT-001",
+      "repository": "architecture-standards",
+      "document": "docs/messaging-resilience.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "EVT-002",
+      "repository": "architecture-standards",
+      "document": "docs/messaging-resilience.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "FE-001",
+      "repository": "architecture-standards",
+      "document": "docs/frontend-architecture.md",
+      "status": "Accepted"
+    },
+    {
+      "id": "FE-002",
+      "repository": "architecture-standards",
+      "document": "docs/frontend-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "FE-003",
+      "repository": "architecture-standards",
+      "document": "docs/frontend-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "FE-004",
+      "repository": "architecture-standards",
+      "document": "docs/frontend-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "FE-005",
+      "repository": "architecture-standards",
+      "document": "docs/frontend-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "FE-006",
+      "repository": "engineering-standards",
+      "document": "docs/frontend-implementation-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "FE-007",
+      "repository": "engineering-standards",
+      "document": "docs/frontend-implementation-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "FE-008",
+      "repository": "engineering-standards",
+      "document": "docs/frontend-implementation-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "FE-009",
+      "repository": "engineering-standards",
+      "document": "docs/frontend-implementation-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "GOV-001",
+      "repository": "standards-marketplace",
+      "document": "governance/team-operating-model.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "IAM-001",
+      "repository": "security-standards",
+      "document": "docs/identity-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "IAM-002",
+      "repository": "security-standards",
+      "document": "docs/identity-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "IAM-003",
+      "repository": "security-standards",
+      "document": "docs/identity-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "IAM-004",
+      "repository": "security-standards",
+      "document": "docs/identity-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "INF-001",
+      "repository": "operations-standards",
+      "document": "docs/infrastructure-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "INF-002",
+      "repository": "operations-standards",
+      "document": "docs/infrastructure-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "INF-003",
+      "repository": "operations-standards",
+      "document": "docs/infrastructure-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "INF-004",
+      "repository": "operations-standards",
+      "document": "docs/infrastructure-implementation-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "INF-005",
+      "repository": "operations-standards",
+      "document": "docs/infrastructure-implementation-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "INF-006",
+      "repository": "operations-standards",
+      "document": "docs/infrastructure-implementation-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "INT-001",
+      "repository": "architecture-standards",
+      "document": "docs/integration-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "INT-002",
+      "repository": "architecture-standards",
+      "document": "docs/integration-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "INT-003",
+      "repository": "architecture-standards",
+      "document": "docs/integration-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "INT-004",
+      "repository": "architecture-standards",
+      "document": "docs/integration-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "MIG-001",
+      "repository": "data-standards",
+      "document": "docs/migration-recovery-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "MIG-002",
+      "repository": "data-standards",
+      "document": "docs/migration-recovery-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "MW-001",
+      "repository": "architecture-standards",
+      "document": "docs/middleware-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "MW-002",
+      "repository": "architecture-standards",
+      "document": "docs/middleware-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "MW-003",
+      "repository": "architecture-standards",
+      "document": "docs/middleware-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "MW-004",
+      "repository": "architecture-standards",
+      "document": "docs/middleware-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "OAS-001",
+      "repository": "architecture-standards",
+      "document": "docs/openapi-swagger-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "OAS-002",
+      "repository": "architecture-standards",
+      "document": "docs/openapi-swagger-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "OAS-003",
+      "repository": "architecture-standards",
+      "document": "docs/openapi-swagger-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "OAS-004",
+      "repository": "architecture-standards",
+      "document": "docs/openapi-swagger-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "OBS-001",
+      "repository": "operations-standards",
+      "document": "docs/observability-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "OBS-002",
+      "repository": "operations-standards",
+      "document": "docs/observability-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "PL-001",
+      "repository": "operations-standards",
+      "document": "docs/platform-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "PL-002",
+      "repository": "operations-standards",
+      "document": "docs/platform-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "PL-003",
+      "repository": "operations-standards",
+      "document": "docs/platform-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "PL-004",
+      "repository": "operations-standards",
+      "document": "docs/platform-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "RES-001",
+      "repository": "architecture-standards",
+      "document": "docs/messaging-resilience.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "RES-002",
+      "repository": "architecture-standards",
+      "document": "docs/messaging-resilience.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "SA-001",
+      "repository": "architecture-standards",
+      "document": "docs/solution-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "SA-002",
+      "repository": "architecture-standards",
+      "document": "docs/solution-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "SA-003",
+      "repository": "architecture-standards",
+      "document": "docs/solution-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "SA-004",
+      "repository": "architecture-standards",
+      "document": "docs/solution-design-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "SA-005",
+      "repository": "architecture-standards",
+      "document": "docs/solution-design-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "SEC-001",
+      "repository": "security-standards",
+      "document": "docs/security-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "SEC-002",
+      "repository": "security-standards",
+      "document": "docs/security-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "SEC-003",
+      "repository": "security-standards",
+      "document": "docs/security-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "SEC-004",
+      "repository": "security-standards",
+      "document": "docs/security-architecture.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "SEC-005",
+      "repository": "security-standards",
+      "document": "docs/application-security-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "SEC-006",
+      "repository": "security-standards",
+      "document": "docs/application-security-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "SEC-007",
+      "repository": "security-standards",
+      "document": "docs/application-security-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "SLO-001",
+      "repository": "operations-standards",
+      "document": "docs/observability-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "TEST-001",
+      "repository": "engineering-standards",
+      "document": "docs/testing-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "TEST-002",
+      "repository": "engineering-standards",
+      "document": "docs/testing-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "TEST-003",
+      "repository": "engineering-standards",
+      "document": "docs/testing-standard.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "UX-001",
+      "repository": "architecture-standards",
+      "document": "docs/frontend-accessibility-performance.md",
+      "status": "Proposed"
+    },
+    {
+      "id": "UX-002",
+      "repository": "architecture-standards",
+      "document": "docs/frontend-accessibility-performance.md",
+      "status": "Proposed"
+    }
+  ]
+}

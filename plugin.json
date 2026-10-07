@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "standards-marketplace",
+  "version": "1.0.0",
+  "description": "Index, shared tooling, templates, and governance for the Slight76 standards handbooks.",
+  "author": { "name": "Slight76", "url": "https://github.com/Slight76" },
+  "homepage": "https://github.com/Slight76/standards-marketplace",
+  "repository": "https://github.com/Slight76/standards-marketplace",
+  "license": "MIT",
+  "keywords": ["standards", "agent-skills", "governance", "marketplace"]
+}

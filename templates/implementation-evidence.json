@@ -1,0 +1,17 @@
+{
+  "standards": [
+    { "repository": "https://github.com/Slight76/architecture-standards", "revision": "REPLACE_WITH_40_CHARACTER_COMMIT_SHA" },
+    { "repository": "https://github.com/Slight76/engineering-standards", "revision": "REPLACE_WITH_40_CHARACTER_COMMIT_SHA" },
+    { "repository": "https://github.com/Slight76/operations-standards", "revision": "REPLACE_WITH_40_CHARACTER_COMMIT_SHA" },
+    { "repository": "https://github.com/Slight76/data-standards", "revision": "REPLACE_WITH_40_CHARACTER_COMMIT_SHA" },
+    { "repository": "https://github.com/Slight76/security-standards", "revision": "REPLACE_WITH_40_CHARACTER_COMMIT_SHA" }
+  ],
+  "applicationCommit": "REPLACE_WITH_40_CHARACTER_COMMIT_SHA",
+  "checks": [
+    {
+      "rule": "CORS-002",
+      "status": "not_run",
+      "reason": "Template only; no application or browser test has run."
+    }
+  ]
+}

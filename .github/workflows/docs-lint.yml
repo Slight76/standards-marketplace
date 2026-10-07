@@ -1,0 +1,54 @@
+name: Standards docs lint (reusable)
+# Reusable workflow for every Slight76 *-standards repository.
+# Caller:  uses: Slight76/standards-marketplace/.github/workflows/docs-lint.yml@<sha>
+on:
+  workflow_call:
+    inputs:
+      marketplace-ref:
+        description: Ref of standards-marketplace to use for shared tooling and the rule index
+        type: string
+        default: main
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  lint:
+    name: lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Check out standards-marketplace tooling
+        if: github.repository != 'Slight76/standards-marketplace'
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          repository: Slight76/standards-marketplace
+          ref: ${{ inputs.marketplace-ref || 'main' }}
+          path: .marketplace
+      - name: Resolve tooling directory
+        id: tooling
+        run: |
+          if [ -d .marketplace ]; then echo "dir=.marketplace" >> "$GITHUB_OUTPUT"; else echo "dir=." >> "$GITHUB_OUTPUT"; fi
+          echo ".marketplace/" >> .lycheeignore
+      - name: Lint markdown
+        uses: DavidAnson/markdownlint-cli2-action@v24
+        with:
+          config: ${{ steps.tooling.outputs.dir }}/.markdownlint-cli2.jsonc
+          globs: |
+            **/*.md
+            !.marketplace/**
+            !node_modules/**
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate catalog, ADRs, documents, links, and agent files
+        run: python3 "${{ steps.tooling.outputs.dir }}/tooling/validate.py" --root . --rule-index "${{ steps.tooling.outputs.dir }}/catalog/rule-index.json"
+      - name: Unit tests (marketplace only)
+        if: github.repository == 'Slight76/standards-marketplace'
+        run: python3 -m unittest discover -s tooling/tests -v
+      - name: Check external links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --config ${{ steps.tooling.outputs.dir }}/lychee.toml --exclude-path .marketplace '**/*.md'
+          fail: true

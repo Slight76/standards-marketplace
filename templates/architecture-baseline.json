@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 2,
+  "standards": [
+    {
+      "repository": "https://github.com/Slight76/architecture-standards",
+      "revision": "REPLACE_WITH_40_CHARACTER_COMMIT_SHA",
+      "catalogVersion": "1.0.0"
+    },
+    {
+      "repository": "https://github.com/Slight76/engineering-standards",
+      "revision": "REPLACE_WITH_40_CHARACTER_COMMIT_SHA",
+      "catalogVersion": "1.0.0"
+    },
+    {
+      "repository": "https://github.com/Slight76/operations-standards",
+      "revision": "REPLACE_WITH_40_CHARACTER_COMMIT_SHA",
+      "catalogVersion": "1.0.0"
+    },
+    {
+      "repository": "https://github.com/Slight76/data-standards",
+      "revision": "REPLACE_WITH_40_CHARACTER_COMMIT_SHA",
+      "catalogVersion": "1.0.0"
+    },
+    {
+      "repository": "https://github.com/Slight76/security-standards",
+      "revision": "REPLACE_WITH_40_CHARACTER_COMMIT_SHA",
+      "catalogVersion": "1.0.0"
+    }
+  ],
+  "solutionDocument": "docs/solution-architecture.md",
+  "applicationKind": "backend",
+  "adoptionRecord": {
+    "owner": "REPLACE",
+    "date": "YYYY-MM-DD",
+    "evidence": "REPLACE_WITH_ADOPTION_RECORD"
+  },
+  "applicableRules": [],
+  "excludedRules": [],
+  "acceptedExceptions": []
+}

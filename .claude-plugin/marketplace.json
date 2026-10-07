@@ -1,0 +1,43 @@
+{
+  "name": "slight76-standards",
+  "owner": {
+    "name": "Slight76",
+    "url": "https://github.com/Slight76"
+  },
+  "metadata": {
+    "description": "Slight76 team standards handbooks for developers and AI agents: architecture, engineering, operations, data, and security.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "architecture-standards",
+      "description": "Solution, frontend, backend, integration, and API architecture standards. Use when designing systems, boundaries, contracts, messaging, or reviewing architecture decisions.",
+      "version": "1.0.0",
+      "source": { "source": "github", "repo": "Slight76/architecture-standards", "ref": "v1.0.0", "sha": "REPLACE_WITH_TAG_COMMIT_SHA" }
+    },
+    {
+      "name": "engineering-standards",
+      "description": "Source control, code review, testing, implementation, agent development, and adoption standards. Use when writing or reviewing code, tests, branches, or commits.",
+      "version": "1.0.0",
+      "source": { "source": "github", "repo": "Slight76/engineering-standards", "ref": "v1.0.0", "sha": "REPLACE_WITH_TAG_COMMIT_SHA" }
+    },
+    {
+      "name": "operations-standards",
+      "description": "Delivery pipelines, observability, SLOs, incident response, infrastructure, Fly.io/Docker runtime, and backup/DR standards. Use for CI/CD, deployment, monitoring, and runbooks.",
+      "version": "1.0.0",
+      "source": { "source": "github", "repo": "Slight76/operations-standards", "ref": "v1.0.0", "sha": "REPLACE_WITH_TAG_COMMIT_SHA" }
+    },
+    {
+      "name": "data-standards",
+      "description": "Database design, naming, Postgres practices, EF Core migrations, persistence, caching, and backup/restore standards. Use when touching schemas, queries, migrations, or caches.",
+      "version": "1.0.0",
+      "source": { "source": "github", "repo": "Slight76/data-standards", "ref": "v1.0.0", "sha": "REPLACE_WITH_TAG_COMMIT_SHA" }
+    },
+    {
+      "name": "security-standards",
+      "description": "Application security, identity, CORS, secrets, threat modeling, supply chain, and dependency/SBOM standards. Use for auth, secrets, security reviews, and CI hardening.",
+      "version": "1.0.0",
+      "source": { "source": "github", "repo": "Slight76/security-standards", "ref": "v1.0.0", "sha": "REPLACE_WITH_TAG_COMMIT_SHA" }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "enabledPlugins": {
+    "architecture-standards@slight76-standards": true,
+    "engineering-standards@slight76-standards": true,
+    "operations-standards@slight76-standards": true,
+    "data-standards@slight76-standards": true,
+    "security-standards@slight76-standards": true
+  }
+}
