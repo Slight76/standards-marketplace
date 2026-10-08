@@ -51,7 +51,7 @@ The marketplace manifest is [.claude-plugin/marketplace.json](.claude-plugin/mar
 | `catalog/` | `catalog.json` (GOV rules, retired EA rules) and the generated cross-handbook `rule-index.json` |
 | `governance/` | Team operating model, ownership, change triggers |
 | `templates/` | ADR, exception, evidence, agent bootstrap, `architecture-baseline.json` (schema v2) |
-| `consumer-kit/` | Files to copy into an application repository |
+| `consumer-kit/` | Files to copy into an application repository; `consumer-kit/noodle/` adds an optional [Noodle](https://github.com/poteto/noodle) loop template |
 | `tooling/` | `validate.py`, `check_adoption.py`, `fetch_standards.py`, tests, one-off migration script |
 | `scaffold/` | Skeleton for a new `*-standards` repository |
 | `.github/workflows/docs-lint.yml` | Reusable lint/validate workflow used by every handbook |

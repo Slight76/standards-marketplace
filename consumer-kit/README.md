@@ -34,6 +34,10 @@ Keep `.standards/` in `.gitignore` (or use submodules) and keep it in sync with 
 - **Copilot** does not reliably follow prose asking it to fetch other repositories; the setup-steps workflow materializes `.standards/` and copies each handbook's skill into `.agents/skills/` instead. All handbook repos are public, so no token is needed.
 - **Windows:** avoid symlinks for these files. With `core.symlinks` off, git writes a tiny text file and agents silently get no instructions.
 
+## Optional: autonomous loop with Noodle
+
+[`noodle/`](noodle/README.md) holds a [Noodle](https://github.com/poteto/noodle) template: a `.noodle.toml`, the default `todos.md` backlog adapters, and `schedule`/`execute` skills that make every autonomous order read the pinned handbook skills first and finish with the baseline revision, rule IDs, and verification results the PR rules require. Adopt it only after the files above are in place.
+
 ## Smoke checks
 
 - Codex: `codex "Summarize the current instructions."`

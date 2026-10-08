@@ -8,5 +8,6 @@
     "MD041": false,
     "MD060": false
   },
-  "ignores": ["node_modules/**", ".marketplace/**", ".standards/**", "scaffold/**"]
+  // consumer-kit/noodle/.agents/skills/noodle is Noodle's own skill, vendored verbatim from poteto/noodle.
+  "ignores": ["node_modules/**", ".marketplace/**", ".standards/**", "scaffold/**", "consumer-kit/noodle/.agents/skills/noodle/**"]
 }

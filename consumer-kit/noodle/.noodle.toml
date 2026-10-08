@@ -1,0 +1,31 @@
+# Noodle configuration for a repository that adopts the Slight76 standards handbooks.
+# Copy to the project root as `.noodle.toml`. Reference: .agents/skills/noodle/references/configuration.md
+
+# auto | supervised | manual. Keep "supervised" (a human approves every merge) until the loop has earned trust.
+mode = "supervised"
+
+[routing.defaults]
+provider = "claude"
+model = "claude-opus-4-6"
+
+# Codex alternative: comment out the Claude block above and uncomment this one.
+# [routing.defaults]
+# provider = "codex"
+# model = "gpt-5.4"
+
+[skills]
+# The consumer-kit setup steps copy each handbook skill into .agents/skills/<handbook>-standards/,
+# so the schedule, execute, noodle, and handbook skills all resolve from one path.
+paths = [".agents/skills"]
+
+[concurrency]
+# Two concurrent agent sessions keeps merge conflicts and spend low while the loop is new.
+max_concurrency = 2
+
+[adapters.backlog.scripts]
+# Default todos.md adapters (POSIX sh). Swap these for GitHub Issues or another tracker later:
+# https://poteto.github.io/noodle/concepts/adapters
+sync = "adapters/backlog-sync"
+add = "adapters/backlog-add"
+done = "adapters/backlog-done"
+edit = "adapters/backlog-edit"
